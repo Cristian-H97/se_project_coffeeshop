@@ -58,13 +58,13 @@ height: 568px;
 .header__footer{
   margin-top: auto;
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
   font-family: "Inter","Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  color: #6f6f6f
+  color: #6f6f6f;
 }
 
 .header__paragraph{
@@ -74,7 +74,7 @@ height: 568px;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  color: #6f6f6f
+  color: #6f6f6f;
 }
 
 .nav{
@@ -96,6 +96,11 @@ justify-content:space-between ;
   gap: 20px; /*ya que tenemos un flex box podemos usar gap para el espacio entre cada link*/
   padding: 0;
   margin: 30px 80px ;
+}
+
+.nav__link{
+  color: #000;
+  text-decoration: none;
 }
 
 .recipes{
