@@ -134,7 +134,7 @@ justify-content:space-between ;
 
 .recipes__videos{
   display: flex;
-  justify-content:space-between;
+  justify-content:center;
   gap: 40px;
   list-style-type: none;
   width: 480px;
