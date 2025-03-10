@@ -1,0 +1,25 @@
+.nav{
+  display: flex;
+  justify-content:space-between ;
+  }
+
+  .nav__logo{
+    position: relative;
+    left: -50px; /*para mover el logo hacia la izquierda*/
+    width: 105px;
+    height: 39px;
+
+  }
+
+  .nav__links{
+    display:flex;
+    list-style-type: none;
+    gap: 20px; /*ya que tenemos un flex box podemos usar gap para el espacio entre cada link*/
+    padding: 0;
+    margin: 30px 80px ;
+  }
+
+  .nav__link{
+    color: #000;
+    text-decoration: none;
+  }
