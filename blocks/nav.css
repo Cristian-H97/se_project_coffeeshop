@@ -3,7 +3,7 @@
   justify-content:space-between ;
   }
 
-  .nav__logo{
+.nav__logo{
     position: relative;
     left: -50px; /*para mover el logo hacia la izquierda*/
     width: 105px;
@@ -11,7 +11,7 @@
 
   }
 
-  .nav__links{
+.nav__links{
     display:flex;
     list-style-type: none;
     gap: 20px; /*ya que tenemos un flex box podemos usar gap para el espacio entre cada link*/
@@ -19,7 +19,13 @@
     margin: 30px 80px ;
   }
 
-  .nav__link{
+.nav__link{
     color: #000;
     text-decoration: none;
+    transition: opacity 0.5s;
+    cursor: pointer;
   }
+
+.nav__link:hover{
+  opacity: 0.5;
+}
