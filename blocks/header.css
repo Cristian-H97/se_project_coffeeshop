@@ -7,6 +7,8 @@
   background-image: url(../images/background_header.svg);
   background-size: cover;
   position:relative ;
+  z-index: 1;
+  background-position:center;
 }
 
 .header__image{
@@ -15,6 +17,7 @@ top: 124px;
 right: 5px;
 width: 646px;
 height: 568px;
+z-index: -1;
 }
 
 .header__title{
@@ -42,7 +45,7 @@ height: 568px;
   font-family: "Noto Serif", "Time New Roman", serif;
   font-size: 20px;
   line-height: 30px;
-  margin-top: 28px;
+  margin: 28px 0 0;
   max-width: 683px;
 }
 
@@ -56,6 +59,7 @@ height: 568px;
   font-size: 16px;
   line-height: 20px;
   color: #6f6f6f;
+  align-items: end;
 }
 
 .header__paragraph{

@@ -16,7 +16,7 @@
     list-style-type: none;
     gap: 20px; /*ya que tenemos un flex box podemos usar gap para el espacio entre cada link*/
     padding: 0;
-    margin: 30px 80px ;
+    margin: 0;
   }
 
 .nav__link{
@@ -24,6 +24,7 @@
     text-decoration: none;
     transition: opacity 0.5s;
     cursor: pointer;
+    font-weight: 500
   }
 
 .nav__link:hover{
